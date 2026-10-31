@@ -1,0 +1,17 @@
+name: Announcement
+version: 1.0.0
+main: com.devkry.announcement.AnnouncementPlugin
+api-version: '26.2'
+description: Broadcast announcement otomatis dan manual.
+author: DevKry
+
+commands:
+  announce:
+    description: Broadcast pesan ke seluruh server.
+    usage: /announce <pesan>
+    permission: announcement.use
+
+permissions:
+  announcement.use:
+    description: Izinkan memakai /announce.
+    default: op

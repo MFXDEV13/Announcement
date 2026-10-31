@@ -1,0 +1,11 @@
+# Teks di depan setiap pesan. Mendukung MiniMessage.
+prefix: "<gray>[<gold>Announcement<gray>]</gray> "
+
+# Jarak antar broadcast otomatis, dalam detik.
+interval-seconds: 300
+
+# Pesan diputar bergiliran sesuai urutan. Mendukung MiniMessage.
+messages:
+  - "<yellow>Selamat datang di server!</yellow>"
+  - "<green>Gunakan <white>/help</white> untuk melihat command.</green>"
+  - "<aqua>Join Discord kami: <white>discord.gg/contoh</white></aqua>"
